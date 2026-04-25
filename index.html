@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>BM Share Tool — Install</title>
+<style>
+body{font-family:system-ui,-apple-system;max-width:640px;margin:40px auto;padding:20px;line-height:1.6;background:#0f172a;color:#e2e8f0}
+h1{color:#3b82f6;border-bottom:2px solid #3b82f6;padding-bottom:10px}
+.box{background:#1e293b;padding:16px;border-radius:8px;margin:16px 0;border-left:4px solid #3b82f6}
+.warn{border-left-color:#ef4444;background:#450a0a}
+a.btn{display:inline-block;padding:12px 24px;background:#3b82f6;color:white;text-decoration:none;border-radius:6px;font-weight:600;margin:8px 4px}
+a.btn:hover{background:#2563eb}
+code{background:#0f172a;padding:2px 6px;border-radius:3px;font-size:13px}
+ol{margin:12px 0}
+ol li{margin:8px 0}
+.meta{font-size:12px;color:#94a3b8;margin-top:24px;padding-top:12px;border-top:1px solid #334155}
+</style>
+</head>
+<body>
+<h1>📦 BM Share Tool v10.8.0</h1>
+
+<div class="box">
+<strong>🚀 Auto-Update Enabled</strong><br>
+Cài 1 lần — Chrome tự update mỗi khi tao push code mới.
+</div>
+
+<h3>📥 Cài đặt</h3>
+<a class="btn" href="bm-share-tool.crx" download>⬇ Download CRX</a>
+<a class="btn" href="https://chrome://extensions/" target="_blank">🔧 Mở Extensions</a>
+
+<h3>🛠 Hướng dẫn</h3>
+<ol>
+<li>Click <strong>Download CRX</strong> ở trên</li>
+<li>Mở <code>chrome://extensions/</code></li>
+<li>Bật <strong>Developer mode</strong> (góc phải trên)</li>
+<li>Drag-drop file <code>bm-share-tool.crx</code> vào page</li>
+<li>Click <strong>Add extension</strong></li>
+<li>Nhập key: <code>JRKECR0U-E95Y2GZ7-PZYBOKG3-RZZ7YIUX-6GCQR6BK</code></li>
+<li>✅ Done — Chrome auto-update từ giờ</li>
+</ol>
+
+<div class="box warn">
+<strong>⚠️ HIGH RISK MODE</strong><br>
+Tab Thẻ → Quick Mode có thể ban admin account. CHỈ dùng throw-away admin để test.
+</div>
+
+<h3>🔄 Auto-Update Mechanism</h3>
+<p>Chrome poll <a href="update.xml" style="color:#60a5fa">update.xml</a> mỗi 5 giờ. Khi tag version mới được push lên GitHub, CRX tự deploy → Chrome silent update.</p>
+
+<h3>🔍 Force Update Ngay</h3>
+<ol>
+<li>Mở <code>chrome://extensions/</code></li>
+<li>Click nút <strong>Update</strong> (góc trên)</li>
+<li>Đợi 10 giây → version mới apply</li>
+</ol>
+
+<div class="meta">
+<strong>Extension ID:</strong> <code>golmhcicoofmfcjgcbncdndkdgeaohlh</code><br>
+<strong>Update XML:</strong> <a href="update.xml" style="color:#60a5fa">update.xml</a><br>
+<strong>Source:</strong> <a href="https://github.com/tony9X/bm-share-tool" style="color:#60a5fa">github.com/tony9X/bm-share-tool</a> (private)<br>
+<strong>CDN:</strong> tony9X/bm-share-tool-cdn (public, chỉ chứa CRX file)
+</div>
+</body>
+</html>
