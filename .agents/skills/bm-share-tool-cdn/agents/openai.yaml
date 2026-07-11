@@ -1,0 +1,6 @@
+interface:
+  display_name: "Bm Share Tool Cdn"
+  short_description: "Repo-specific patterns and workflows for bm-share-tool-cdn"
+  default_prompt: "Use the bm-share-tool-cdn repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
